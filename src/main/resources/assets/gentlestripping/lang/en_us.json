@@ -1,0 +1,9 @@
+{
+	"text.autoconfig.gentlestripping.title": "Gentle Stripping Config",
+	"text.autoconfig.gentlestripping.option.preventDurabilityLoss": "Prevent Durability Loss",
+	"text.autoconfig.gentlestripping.option.preventDurabilityLoss.@Tooltip": "Prevents axe durability loss when stripping or unstripping logs",
+	"text.autoconfig.gentlestripping.option.enableUnstripping": "Enable Unstripping",
+	"text.autoconfig.gentlestripping.option.enableUnstripping.@Tooltip": "Allows unstripping logs back to their original state",
+	"text.autoconfig.gentlestripping.option.requireSneakingForUnstripping": "Require Sneaking for Unstripping",
+	"text.autoconfig.gentlestripping.option.requireSneakingForUnstripping.@Tooltip": "Requires sneaking to unstrip logs"
+} 

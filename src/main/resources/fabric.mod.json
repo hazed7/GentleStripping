@@ -1,0 +1,45 @@
+{
+	"schemaVersion": 1,
+	"id": "gentlestripping",
+	"version": "${version}",
+	"name": "Gentle Stripping",
+	"description": "Prevents axe durability loss when stripping logs and allows unstripping with right-click",
+	"authors": [
+		"hazed7"
+	],
+	"contact": {
+		"homepage": "https://github.com/hazed7",
+		"sources": "https://github.com/hazed7/GentleStripping"
+	},
+	"license": "MIT",
+	"icon": "assets/gentlestripping/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.hazed7.gentlestripping.GentleStripping"
+		],
+		"client": [
+			"com.hazed7.gentlestripping.GentleStrippingClient"
+		],
+		"modmenu": [
+			"com.hazed7.gentlestripping.config.ModMenuIntegration"
+		]
+	},
+	"mixins": [
+		"gentlestripping.mixins.json",
+		{
+			"config": "gentlestripping.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.14.21",
+		"minecraft": ">=1.20 <1.21",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"modmenu": "*",
+		"cloth-config": "*"
+	}
+}

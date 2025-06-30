@@ -1,0 +1,9 @@
+{
+	"text.autoconfig.gentlestripping.title": "Настройки Gentle Stripping",
+	"text.autoconfig.gentlestripping.option.preventDurabilityLoss": "Предотвращать потерю прочности",
+	"text.autoconfig.gentlestripping.option.preventDurabilityLoss.@Tooltip": "Предотвращает потерю прочности топора при обтесывании бревен",
+	"text.autoconfig.gentlestripping.option.enableUnstripping": "Включить восстановление коры",
+	"text.autoconfig.gentlestripping.option.enableUnstripping.@Tooltip": "Позволяет восстанавливать кору на обтесанных бревнах",
+	"text.autoconfig.gentlestripping.option.requireSneakingForUnstripping": "Требовать присед для восстановления",
+	"text.autoconfig.gentlestripping.option.requireSneakingForUnstripping.@Tooltip": "Требует присед для восстановления коры на бревнах"
+} 
