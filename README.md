@@ -6,7 +6,7 @@ A Minecraft Fabric mod that prevents axe durability loss when stripping logs and
 
 - 🪓 **No durability loss** when stripping logs with axes
 - 🔄 **Unstrip logs** back to their original state (Shift + right-click by default)
-- ⚙️ **Fully configurable** via Mod Menu + Cloth Config
+- ⚙️ **Fully configurable** via Mod Menu
 
 ## Configuration
 
